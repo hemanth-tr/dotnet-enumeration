@@ -11,7 +11,7 @@ namespace Enumeration
             var enumerableUsers = new EnumerableUsers { Users = new User[2] { new User { Name = "name1", Age = 27 }, new User { Name = "name2", Age = 27 } } };
             enumerableUsers.Add(new User { Name = "name3", Age = 27 });
 
-            int i = 0;
+            int i = 0
             foreach (var user in enumerableUsers)
             {
                 i++;
