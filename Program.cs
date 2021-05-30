@@ -7,7 +7,6 @@ namespace Enumeration
         private static void Main()
         {
             var enumerableUsers = new EnumerableUsers { Users = new[] { new User { Name = "name1"}, new User { Name = "name2"} } };
-            enumerableUsers.Add(new User { Name = "name3"});
 
             var i = 0;
             foreach (var user in enumerableUsers)
